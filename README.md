@@ -1,36 +1,48 @@
-🐾 Animal Image Classifier
-A deep learning-based image classification system that identifies 15 different animals using VGG16 and transfer learning. The project includes:
-✅ Model Training using TensorFlow & Keras
-✅ Streamlit Web App for real-time image classification
-✅ Pretrained VGG16 for feature extraction
+# 🐾 Animal Image Classifier
 
-📌 Project Overview
-This project classifies animal images into one of 15 categories using a convolutional neural network (CNN). A pretrained VGG16 model is used as a feature extractor, with a custom classifier trained on top of it.
-https://i.postimg.cc/c4xjxCQm/Screenshot-2025-03-19-at-4-51-05-PM.png
-https://i.postimg.cc/Xvft8zdj/Screenshot-2025-03-19-at-4-52-39-PM.png
-📌 Dataset:
+A deep learning-based image classification system that identifies **15 different animals** using **VGG16** and transfer learning.  
 
-15 Animal Classes
-Image Size: 224 × 224 × 3
-Train-Test Split: 80%-20%
-📌 Tech Stack:
+## ✅ Project Features
+- **Model Training** using TensorFlow & Keras  
+- **Streamlit Web App** for real-time image classification  
+- **Pretrained VGG16** for feature extraction  
 
-Python 3.12
-TensorFlow & Keras (Deep Learning)
-VGG16 (Pretrained Model)
-Streamlit (Web App UI)
-tqdm (Training Progress Bar)
-🚀 Installation & Setup
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
+---
+
+## 📌 Project Overview
+This project classifies animal images into one of **15 categories** using a **convolutional neural network (CNN)**.  
+A **pretrained VGG16 model** is used as a feature extractor, with a **custom classifier** trained on top of it.  
+
+![Dataset Sample](https://i.postimg.cc/c4xjxCQm/Screenshot-2025-03-19-at-4-51-05-PM.png)  
+![Training Graphs](https://i.postimg.cc/Xvft8zdj/Screenshot-2025-03-19-at-4-52-39-PM.png)  
+
+---
+
+## 📌 Dataset:
+- **15 Animal Classes**  
+- **Image Size:** 224 × 224 × 3  
+- **Train-Test Split:** 80%-20%  
+
+---
+
+## 📌 Tech Stack:
+- **Python 3.12**  
+- **TensorFlow & Keras** (Deep Learning)  
+- **VGG16** (Pretrained Model)  
+- **Streamlit** (Web App UI)  
+- **tqdm** (Training Progress Bar)  
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/animal-classifier.git
 cd animal-classifier
+
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
+
 pip install tensorflow streamlit tqdm numpy pillow
 🎯 Model Training
 Run the following command to train the model:
